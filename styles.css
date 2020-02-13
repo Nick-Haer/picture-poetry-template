@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 2fr 9fr 2fr;
+  background-color: navy;
+}
+
+#nav-links {
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: whitesmoke;
+  margin: 0 15px;
+  text-decoration: solid;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+#raven-image {
+  width: 200px;
+  justify-self: end;
+  transform: scale(-1, 1);
+}
+
+#title-text {
+  font-size: 4rem;
+  align-self: center;
+  text-align: center;
+  font-family: 'Lemonada', cursive;
+  color: rgb(175, 172, 172);
+}
+
+section#about {
+  background-color: black;
+  padding: 200px;
+}
