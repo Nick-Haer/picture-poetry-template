@@ -10,7 +10,7 @@
 .navbar {
   display: grid;
   grid-template-columns: 2fr 9fr 2fr;
-  background-color: navy;
+  background-color: #003153;
 }
 
 #nav-links {
